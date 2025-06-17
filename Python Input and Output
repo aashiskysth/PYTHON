@@ -1,0 +1,20 @@
+#Python Input and Output
+"""
+Input function are used to take the input values from user through keyboard.
+Python provides the built-in function called input () This function gets input from the keyboard.
+When this function is called, the program stops and waits for the user to type something.
+When the user presses enter, the program resumes and input return what the user typed as a string. 
+The print() function display the output in python.
+"""
+name = input ("What is your name?")
+print ("Nice to meet you", name)
+age = input("What is your age?")
+print ("You are", age, "years old")
+
+Input/Output :
+What is your name ?
+Aashish
+Nice to meet you Aashish
+What is your age?
+20
+you are 20 years old
