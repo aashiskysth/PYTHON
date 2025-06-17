@@ -1,0 +1,73 @@
+1.)
+>>>int ("Aashish Kumar karna, is an, \n \t Electrical engineer! \n\t\t ❤️")
+Output: Aashish Kumar karna, is an,
+         Electrical engineer!
+                ❤️
+2.) #Program to get the python version.
+>>> import sys
+>>> print("Pyhton Version")
+Pyhton Version
+>>> print (sys. version)  #for version of python and anaconda used
+3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]
+>>> print("Version Info")
+Version Info
+>>> print (sys. version_info)
+sys.version_info(major=3, minor=13, micro=5, releaselevel='final', serial=0)
+
+3.) #Program to find sum of two numbers.
+>>> num1 = 1.5
+>>> num2 = 6.3
+>>> sum= float(num1) + float(num2)
+>>> print ("The sum is", sum)
+The sum is 7.8
+
+4.) #Python program to accepts the radius of a circle from the user and compute the area.
+>>> from math import pi
+>>> radius= float(input("Enter the value of radius"))
+Enter the value of radius 10
+>>> area = pi*radius**2
+>>> print("The area of circle is",area)
+The area of circle is 314.1592653589793
+
+5.) #Python program to get the volume of a sphere with radius 12.
+>>>pi = 3.1415926
+>>>r = 12.0
+>>>V= 4.0/3.0* pi* r**3
+>>>print("The volume of the sphere is:",V)
+Output: 
+The volume of the sphere is: 7238.22947
+
+6.) #Pyhton program to convert the distance from feet to inches and miles.
+>>>ft = int (Input("Enter the distance in feet;"))
+>>>inches =ft * 12
+>>>miles =ft / 5280.0
+>>>print ("the distance in inches is", inches)
+>>>print ("the distance in miles is", miles)
+ output:
+Enter the distance in feet: 5
+the distance in inches is 60
+the distance in miles in 0.0009496969696
+
+7.) #Python program to find the roots of quadratic equation.
+#Solving the quadratic equation
+>>>import cmath #math library
+>>>a=1
+>>>b=5
+>>>c=6
+>>>d=b**2-4*a*c
+>>>sol1 = (-b- cmath. sqrt(d))/(2*a)
+>>>sol2== (-b- cmath. sqrt(d))/(2*a)
+>>>print ("The solution are", sol1, "and", sol2) 
+Output:
+The solution are (-3+ 0j) and (-2 +0j)
+
+8.) #Python program to swap two data variables.
+>>> a= 30
+>>> b= 20
+>>> print ("\n Before swap a = %dand b= %d" %(a,b))
+a, b = b, a
+print ("\nAfter swaping a = %d and b = %d" %(a,b))
+print()
+Output:
+Before swap a = 30 and b = 20
+After swap a= 20 and b= 30
