@@ -1,5 +1,5 @@
 1.)
->>>int ("Aashish Kumar karna, is an, \n \t Electrical engineer! \n\t\t ❤️")
+>>>print("Aashish Kumar karna, is an, \n \t Electrical engineer! \n\t\t ❤️")
 Output: Aashish Kumar karna, is an,
          Electrical engineer!
                 ❤️
